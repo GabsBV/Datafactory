@@ -9,6 +9,7 @@
 				"policy": {
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
 						"referenceName": "pl_copyfiles_capabronce",
@@ -41,7 +42,7 @@
 				}
 			},
 			{
-				"name": "Exec_Transform_copy1",
+				"name": "Exec_Transform2",
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
