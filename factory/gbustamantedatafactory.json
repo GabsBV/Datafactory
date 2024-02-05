@@ -1,0 +1,9 @@
+{
+	"name": "gbustamantedatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "029f0fe0-5913-4d7f-9782-d522ca3b69c4",
+		"tenantId": "8b159477-1287-469a-a891-2ed3eb761675"
+	}
+}
