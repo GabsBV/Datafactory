@@ -1,9 +1,9 @@
 {
-	"name": "pf_ingestaplata_databricks",
+	"name": "pf_ingestaoro_databricks",
 	"properties": {
 		"activities": [
 			{
-				"name": "Obtener_DataBricks_Capaplata",
+				"name": "Obtener_Databricks_Capaoro",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/gabrielabustamante.12.03@outlook.com/Transferencia_de_datos_capaplata"
+					"notebookPath": "/Users/gabrielabustamante.12.03@outlook.com/transferir_datos_a_capaoro"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks_Datafactory",
