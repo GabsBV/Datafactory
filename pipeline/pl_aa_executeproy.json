@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Excec_IngestsaBronce",
+				"name": "Excec_proy",
 				"type": "ExecutePipeline",
 				"dependsOn": [],
 				"policy": {
@@ -23,7 +23,7 @@
 				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
-						"activity": "Excec_IngestsaBronce",
+						"activity": "Excec_proy",
 						"dependencyConditions": [
 							"Succeeded"
 						]
